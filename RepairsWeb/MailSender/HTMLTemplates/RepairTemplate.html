@@ -1,0 +1,72 @@
+﻿<table border="1" style="font-family: Calibri; width: 100%">
+    <tr>
+        <td colspan="6" style="text-align: center;">
+            <b>Заявка в сервисный центр № {id}</b>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="6" style="text-align: center; background-color: #F7E1EB;"><b>Информация об оборудовании</b></td>
+    </tr>
+    <tr>
+        <td style="background-color: #F7E1EB; min-width: 18em; max-width: 18em; width: 18em;"><b>Номер заявки в ОТ</b></td>
+        <td colspan="5">{requestNumber}</td>
+    </tr>
+    <tr>
+        <td style="background-color: #F7E1EB;"><b>Оборудование</b></td>
+        <td>{modelType}</td>
+        <td style="background-color: #F7E1EB;"><b>Модель</b></td>
+        <td>{model}</td>
+        <td style="background-color: #F7E1EB;"><b>Серийный №</b></td>
+        <td>{serialNumber}</td>
+    </tr>
+    <tr>
+        <td style="background-color: #F7E1EB;"><b>Идентификатор КЕ</b></td>
+        <td colspan="5">{configurationUnitId}</td>
+    </tr>
+    <tr>
+        <td style="background-color: #F7E1EB;"><b>Неполадка, описание проблемы</b></td>
+        <td colspan="5" style="word-wrap: break-word;">{trouble}</td>
+    </tr>
+    <tr>
+        <td style="background-color: #F7E1EB;"><b>Площадка размещения оборудования</b></td>
+        <td colspan="5">{address}</td>
+    </tr>
+    <tr>
+        <td style="background-color: #F7E1EB;"><b>Комната размещения оборудования</b></td>
+        <td colspan="5">{room}</td>
+    </tr>
+    <tr>
+        <td colspan="6" style="text-align: center;background-color: #AAD6FD;"><b>Информация о заявителе</b></td>
+    </tr>
+    <tr>
+        <td style="background-color: #AAD6FD;"><b>ФИО пользователя</b></td>
+        <td colspan="5">{clientFullName}</td>
+    </tr>
+    <tr>
+        <td style="background-color: #AAD6FD;"><b>Организация пользователя</b></td>
+        <td colspan="5">{clientOrganization}</td>
+    </tr>
+    <tr>
+        <td style="background-color: #AAD6FD;"><b>Отдел пользователя</b></td>
+        <td colspan="5">{clientDepartment}</td>
+    </tr>
+    <tr>
+        <td style="background-color: #AAD6FD;"><b>Телефон пользователя</b></td>
+        <td colspan="5">{clientPhone}</td>
+    </tr>
+    <tr>
+        <td colspan="6" style="text-align: center;background-color: #FFDAB9;"><b>Информация о сотруднике ИТ, подавшего заявку</b></td>
+    </tr>
+    <tr>
+        <td style="background-color: #FFDAB9;"><b>ФИО сотрудника ИТ</b></td>
+        <td colspan="5">{itCreatorFullName}</td>
+    </tr>
+    <tr>
+        <td style="background-color: #FFDAB9;"><b>Телефон сотрудника ИТ</b></td>
+        <td colspan="5">{itCreatorPhone}/{itCreatorMobilePhone}</td>
+    </tr>
+    <tr>
+        <td style="background-color: #00C5CD;"><b>Справочная информация</b></td>
+        <td colspan="5" style="word-wrap: break-word;">{information}</td>
+    </tr>
+</table>

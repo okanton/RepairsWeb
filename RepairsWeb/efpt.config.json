@@ -1,0 +1,65 @@
+﻿{
+  "ContextClassName": "RepairsContext",
+  "ContextNamespace": null,
+  "DefaultDacpacSchema": null,
+  "FilterSchemas": false,
+  "IncludeConnectionString": true,
+  "ModelNamespace": null,
+  "OutputContextPath": "Data",
+  "OutputPath": "Data\\Models",
+  "ProjectRootNamespace": "RepairsWeb",
+  "Schemas": null,
+  "SelectedHandlebarsLanguage": 0,
+  "SelectedToBeGenerated": 0,
+  "Tables": [
+    {
+      "Name": "[dbo].[Addresses]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[ApprovalStatus]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[BudgetPrefixes]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[DeviceTypes]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[Limits]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[Mails]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[MailsType]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[Organizations]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[Refillings]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[Repairs]",
+      "ObjectType": 0
+    }
+  ],
+  "UseBoolPropertiesWithoutDefaultSql": false,
+  "UseDatabaseNames": true,
+  "UseDbContextSplitting": false,
+  "UseFluentApiOnly": true,
+  "UseHandleBars": false,
+  "UseInflector": false,
+  "UseLegacyPluralizer": false,
+  "UseNodaTime": false,
+  "UseSpatial": false
+}

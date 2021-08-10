@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "MailSender/HTMLTemplates/RefillingTemplate.min.html",
+    "inputFiles": [
+      "MailSender/HTMLTemplates/RefillingTemplate.html"
+    ]
+  }
+]

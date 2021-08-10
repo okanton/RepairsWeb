@@ -1,0 +1,68 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "RepairsContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "RepairsContext",
+   "OutputPath": "RepairsContext\\Models",
+   "ProceduresReturnList": false,
+   "ProjectRootNamespace": "RepairsData",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Addresses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ApprovalStatuses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DeviceTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Limits]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Mails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Organizations]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Refillings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Repairs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ServiceTypes]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "PRM-AD01-APP17\\SQLEXPRESS.Repairs",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSpatial": false
+}
